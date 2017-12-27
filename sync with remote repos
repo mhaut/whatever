@@ -1,0 +1,21 @@
+
+
+Taken from here
+
+Add remonte branch:
+
+git remote add --track master mleung git://github.com/mleung/feather.git
+
+Verify:
+
+git remote
+
+Fetch:
+
+git fetch mleung
+
+Merge:
+
+git merge mleung/master
+
+And then git push the updates to your fork
